@@ -1,0 +1,58 @@
+/* Hides the unnecessary sections of the Theme */
+#topMenu, #sidebar, .social, .flickr {
+	display: none;
+}
+
+* {
+	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+p {
+	color: #444;
+}
+
+#header {
+	overflow: hidden;
+}
+
+#header h1 {
+	float: left;
+}
+
+#header h1 a {
+	color: #366eb4;
+	text-decoration: none;
+}
+
+#header p {
+	float: right;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#profile {
+	overflow: hidden;
+}
+
+#profile img {
+	float: left;
+	margin-right: 15px;
+}
+
+ul, li {
+	padding: 0;
+}
+
+h2 {
+	border-bottom: 1px solid #555;
+	color: #366eb4;
+}
+
+h4, span {
+	color: #2f6ab3;
+	font-weight: bold;
+}
+
+h4 {
+	margin-bottom: 5px;
+}

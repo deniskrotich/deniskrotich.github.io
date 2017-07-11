@@ -1,0 +1,277 @@
+/* ========================== CSS Reset ========================== */
+* {
+	border: 0 none;	
+	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* ========================== General Styles ========================== */
+body {
+	background:#F0FFF0 url("images/bg_body.jpg") no-repeat top center;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 50px;
+	position: relative;
+	text-align: left;
+	width: 715px;
+}
+
+a {
+	color: #191970;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.headerContainer {
+	border-bottom: 1px solid #f0efee;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.headerContainer h3, .headerContainer img {
+	bottom: 0;
+	color: #a7aaaf;
+	font-weight: normal;
+	font-size: 16px;
+	position: absolute;
+	right: 5px;
+}
+
+h2 {
+	color: #228B22;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h3 {
+	color: #191970;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h4, span {
+	color: #191970;
+	font-weight: bold;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+p, li {
+	color: #000000;
+	font-size: 11px;
+	line-height: 15px;
+	margin-bottom: 12px;
+}
+
+
+ul {
+	list-style: none;
+	list-style-position: outside;
+}
+
+/* ========================== Top Menu Styles ========================== */
+#topMenu {
+	height: 22px;
+	overflow: hidden;
+	padding: 23px 20px 0 0;
+	width: 695px;
+}
+
+#topMenu ul {
+	float: right;
+}
+
+#topMenu ul li {
+	float: left;
+	margin-left: 8px;
+	text-indent: -9999px;
+}
+
+#topMenu ul li a {
+	background: url("images/icon_pdf.jpg") no-repeat top left;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+
+#topMenu ul li a[title="email"] {
+	background: url("images/icon_mail.jpg") no-repeat top left;
+}
+
+#topMenu ul li a[title="print"] {
+	background: url("images/icon_print.jpg") no-repeat top left;
+}
+
+#topMenu ul li a:hover {
+	background-position: bottom left;
+}
+
+/* ========================== Main Content Styles ========================== */
+#mainContent {
+	background: url("images/bg_mainContent.png") no-repeat bottom left;
+	float: right;
+	padding: 0 35px 70px 35px;
+	width: 453px;
+}
+
+/* ========================== Header Styles ========================== */
+#header {
+	background: url("images/bg_header.jpg") no-repeat top left;
+	height: 53px;
+	margin: 0 -35px 25px -35px;
+	overflow: hidden;
+	padding: 32px 40px 0 40px;
+	width: 443px;
+}
+
+#header h1 {
+	background: url("images/logo.png") no-repeat top left;
+	float: left;
+	text-indent: -9999px;
+}
+
+#header h1 a {
+	display: block;
+	height: 29px;
+	width: 124px;
+}
+
+#header p {
+	color: #B22222;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================== Profile Section Styles ========================== */
+#profile {
+	margin-bottom: 35px;
+	overflow: hidden;
+	padding-top: 8px;
+	width: 453px;
+}
+
+#profile img {
+	margin-top: -8px;
+}
+
+/* ========================== Social List Styles ========================== 
+.social li {
+	float:left;
+	margin-right: 2px;
+	text-indent: -9999px;
+}
+
+.social li a {
+	background: url("images/icons_social.png") no-repeat top left;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+
+*/
+
+.social li a[title="Linkedin"] {
+	background-position: -20px 0;
+}
+
+.social li a[title="Twitter"] {
+	background-position: -40px 0;
+}
+
+.social-icons {
+	max-height: 20px !important;
+	max-width: 20px !important;
+}
+
+/* ========================== Divisions Styles ========================== */
+.divisions li {
+	margin-bottom: 35px;
+}
+
+/* ========================== Sidebar Styles ========================== */
+#sidebar {
+	float: left;
+	left: 6px;
+	position: absolute;
+	top: 0;
+	width: 192px;
+}
+
+/* ========================== Main Navigation Styles ========================== */
+#mainNav {
+	margin: 130px 0 70px 0;
+}
+
+#mainNav li {
+	margin-bottom: 0;
+	text-align: right;
+}
+
+#mainNav li a {
+	background: url("images/bg_mainNav.jpg") no-repeat bottom right;
+	color: #a7aaaf;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 45px;
+	line-height: 43px;
+	padding-right: 22px;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+#mainNav li a.active {
+	background: url("images/bg_mainNav_active.png") no-repeat top right;
+	color: #4472ab;
+	font-size: 16px;
+	height: 54px;
+	line-height: 52px;
+}
+
+#mainNav li a.last {
+	background-image: none;
+}
+
+#mainNav li a:hover {
+	text-decoration: none;
+}
+
+/* ========================== Twitter Box Styles ========================== */
+#twitter {
+	background: url("images/bg_twitter.png") no-repeat top left;
+	height: 299px;
+	margin-left: 20px;
+	padding: 30px 25px 0 25px;
+	width: 122px;
+}
+
+#twitter li {
+	color: #228B22;
+}
+
+#mypic {
+	max-width: 90px;
+	max-height: 100px;
+}
+
+#imgg {
+max-width: 120px; 
+max-height: 90px;
+}
